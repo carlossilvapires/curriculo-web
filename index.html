@@ -1,11 +1,97 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carlos Eduardo Silva Pires</title>
+    <title>Currículo - Carlos Eduardo Silva Pires</title>
+    <link rel="stylesheet" href="sytle.css">
+    <link rel="preconnect" href="https://fonts.googleapi.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Roboto:wght@300;400;700&display=swap" href="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
-    
+    <div class="container">
+        <aside class="sidebar">
+            <img src="https://github.com/carlossilvapires.png" alt="Foto de Perfil" class="foto-perfil">
+            <h1 class="nome">Carlos Eduardo Silva Pires</h1>
+            <h2 class="cargo"><span id="cargo-animado"></span></h2>
+            <hr class="separador">
+
+            <div class="contatos">
+                <a href="mailto:carlossilvaptu01@gmail.com" class="contato-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>carlossilvapires@gmail.com</span>
+                </a>
+                <a href="https://github.com/carlossilvapires" target="_blank"                   class="contato-item">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="#" class="contato-item">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <div class="contato-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Paracatu, MG - Brasil</span>
+                </div>
+            </div>
+            <a href="#" class="botao-download">Download CV</a>
+        </aside>
+        <main class="conteudo-principal">
+
+            <section id="sobre" class="secao-animada">
+                <h3><i class="fas fa-user-circle"></i>Sobre Mim</h3>
+                <p>
+                    Entusiasta de tecnologia e cultura de ficção científica.
+                </p>
+            </section>
+            <section id="experiencia" class="sessao-animada">
+                <h3><i class="fas fa-breifcase"></i>Experiência</h3>
+                <article class="item-experiencia">
+                    <h4><span class="prompt">></span> JC Refeições | Auxiliar de Escritório</h4>
+                    <span class="data">Jul 2022 - Jul 2024</span>
+                    <ul>
+                        <li>Desenvolvimento de sistemas</li>
+                        <li>Implementação de bovas funcionalidades</li>
+                    </ul>
+                </article>
+                <article class="item-experiencia">
+                    <h4><span class="prompt">></span> Organizações Power | Técnico em Informática</h4>
+                    <span class="data">Mar 2024 - Jan 2025</span>
+                    <ul>
+                        <li>Manutenção de computadores</li>
+                        <li>Gerenciamento de redes de internet</li>
+                    </ul>
+                </article>
+                <article class="item-experiencia">
+                    <h4><span class="prompt">></span> Success Sistemas | Desenvolvedor de Sistemas</h4>
+                    <span class="data">Jan 2025 - Presente</span>
+                    <ul>
+                        <li>Desenvolvimento de sistemas</li>
+                        <li>Implementação de bovas funcionalidades</li>
+                    </ul>
+                </article>
+            </section>
+            <section id="habilidades" class="secao-animada">
+                  <h3><i class="fas fa-code"></i> Habilidades</h3>
+                  <div class="container-habilidades">
+                    <span class="tag-habilidade">Java</span>
+                    <span class="tag-habilidade">HTML5</span>
+                    <span class="tag-habilidade">CSS3</span>
+                    <span class="tag-habilidade">Git</span>
+                    <span class="tag-habilidade">Linux</span>
+                    <span class="tag-habilidade">Pacote Office</span>
+                    <span class="tag-habilidade">Manutenção de Computadores</span>
+                    <span class="tag-habilidade">Gerenciamento de Redes de Internet</span>
+                  </div>
+                  <section id="projetos" class="secao-animada">
+                    <h3><i class="fas fa-project-diagram"></i>Projetos</h3>
+                    <h4><a href="https://github.com/carlossilvapires/curriculo-web" target="_blank">Meu Currículo Online <i class="fas fa-external-link-alt"></i></a></h4>
+                    <p>Este próprio projeto</p>
+                  </section>
+            </section>
+        </main>
+    </div>
 </body>
 </html>
