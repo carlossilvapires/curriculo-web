@@ -1,0 +1,27 @@
+:root {
+    --cor-fundo: #1A1B26;      /*azul escuro*/
+    --cor-painel: #282A36;    /*azul escuro barra lateral*/ 
+    --cor-texto: #F8F8F2;      /*branco suave*/
+    --cor-texto-secundario: #a3aab8;
+    --cor-destaque: #50FA7B;    /*verde terminal-linux*/
+    --cor-borda: #44475A;
+    --fonte-principal: 'Roboto', sans-serif;
+    --fonte-mono: 'Fira Code', monospace;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto-secundario);
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+}
