@@ -163,6 +163,26 @@ ul {
     font-size: 0.9em;
 }
 
+.tag-habilidade.tag-java {
+    background-color: red;
+    color: white;
+}
+
+.tag-habilidade.tag-js {
+    background-color: #F0DB4F; /* Amarelo do JavaScript */
+    color: #323330; 
+}
+
+.tag-habilidade.tag-html {
+    background-color: #E44D26;
+    color: white;
+}
+
+.tag-habilidade.tag-css {
+    background-color: #1572B6;
+    color: white;
+}
+
 .item-projeto a {
     color: var(--color-texto);
     text-decoration: none;
